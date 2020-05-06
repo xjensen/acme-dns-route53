@@ -1,0 +1,23 @@
+{
+  "name": "acme-dns-route53",
+  "version": "1.0.0",
+  "description": "**acme-dns-route53** is the tool for obtaining SSL certificates from [Let's Encrypt CA](https://letsencrypt.org/) using DNS-01 challenge with Route53 and Amazon Certificate Manager by [AWS](https://aws.amazon.com/).",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xjensen/acme-dns-route53.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xjensen/acme-dns-route53/issues"
+  },
+  "homepage": "https://github.com/xjensen/acme-dns-route53#readme",
+  "devDependencies": {
+    "serverless": "^1.69.0",
+    "serverless-pseudo-parameters": "^2.5.0"
+  }
+}
